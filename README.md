@@ -1,5 +1,5 @@
 # RrrNycApp
-![alt text](https://raw.githubusercontent.com/nicoleparisis/Recycle-NewYorkCity/src/assets/photos/ScreenShot.png)
+![alt text](https://raw.githubusercontent.com/nicoleparisis/Recycle-NewYorkCity/master/src/assets/photos/ScreenShot.png)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
 ## Development server
