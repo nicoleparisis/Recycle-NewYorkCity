@@ -1,0 +1,13 @@
+.loader .my-loader {
+    background-color: #D32F2F;
+}
+#garbage-list{
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+}
+#trashImg{
+height:400px;
+}
+#recyImg{
+  height:400px;  
+}

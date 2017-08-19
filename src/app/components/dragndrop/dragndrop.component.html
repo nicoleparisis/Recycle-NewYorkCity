@@ -1,0 +1,19 @@
+
+
+<h4>Click and drag each item to the bin you think it belongs in</h4>
+<br>
+ <div id="alert-spot"></div>
+ 
+<div class="row">
+    <div class="col-md-6" id="trash">
+      <img id="trashImg" [src]="imgGarbage">
+    </div>
+     <div class="col-md-6" id="recycle">
+      <img id="recyImg" [src]="imgRecy">
+    </div>
+</div>
+<p>If its not working reload the page - I don't know how to reload the script with routing</p>
+<ul id="garbage-list">
+  <li *ngFor="let item of garbage" id="{{item.id}}-{{item.recyclable}}" draggable="true">{{item.item}}</li>
+</ul>
+ 
